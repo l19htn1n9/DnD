@@ -1,0 +1,10 @@
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/bin/Debug/netcoreapp1.1/DnD.CoreApi.deps.json
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/bin/Debug/netcoreapp1.1/DnD.CoreApi.runtimeconfig.json
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/bin/Debug/netcoreapp1.1/DnD.CoreApi.runtimeconfig.dev.json
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/bin/Debug/netcoreapp1.1/DnD.CoreApi.dll
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/bin/Debug/netcoreapp1.1/DnD.CoreApi.pdb
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/obj/Debug/netcoreapp1.1/DnD.CoreApi.csproj.CoreCompileInputs.cache
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/obj/Debug/netcoreapp1.1/DnD.CoreApi.AssemblyInfo.cs
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/obj/Debug/netcoreapp1.1/DnD.CoreApi.dll
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/obj/Debug/netcoreapp1.1/DnD.CoreApi.pdb
+/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/obj/Debug/netcoreapp1.1/DnD.CoreApi.csprojResolveAssemblyReference.cache
