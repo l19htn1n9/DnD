@@ -1,0 +1,7 @@
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\bin\Debug\netcoreapp1.1\DnD.Models.deps.json
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\bin\Debug\netcoreapp1.1\DnD.Models.dll
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\bin\Debug\netcoreapp1.1\DnD.Models.pdb
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\obj\Debug\netcoreapp1.1\DnD.Models.AssemblyInfo.cs
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\obj\Debug\netcoreapp1.1\DnD.Models.dll
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\obj\Debug\netcoreapp1.1\DnD.Models.pdb
+D:\Projects\DnDCompanion\DnD\DnD\DnD.Models\obj\Debug\netcoreapp1.1\DnD.Models.csprojResolveAssemblyReference.cache

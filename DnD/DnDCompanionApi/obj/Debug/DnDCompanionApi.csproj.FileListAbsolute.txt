@@ -155,6 +155,5 @@ D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\bin\Microsoft.AI.DependencyColl
 D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\bin\Microsoft.AI.WindowsServer.xml
 D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\bin\Microsoft.AI.Web.xml
-D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\obj\Debug\DnDCompanionApi.csprojResolveAssemblyReference.cache
 D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\obj\Debug\DnDCompanionApi.dll
 D:\Projects\DnDCompanion\DnD\DnD\DnDCompanionApi\obj\Debug\DnDCompanionApi.pdb

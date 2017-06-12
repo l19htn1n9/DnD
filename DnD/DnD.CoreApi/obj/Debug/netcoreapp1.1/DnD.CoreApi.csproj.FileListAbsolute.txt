@@ -13,6 +13,8 @@ D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.CoreApi
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.CoreApi.runtimeconfig.dev.json
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.CoreApi.dll
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.CoreApi.pdb
+D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.Models.dll
+D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\bin\Debug\netcoreapp1.1\DnD.Models.pdb
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\obj\Debug\netcoreapp1.1\DnD.CoreApi.csprojResolveAssemblyReference.cache
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\obj\Debug\netcoreapp1.1\DnD.CoreApi.AssemblyInfo.cs
 D:\Projects\DnDCompanion\DnD\DnD\DnD.CoreApi\obj\Debug\netcoreapp1.1\DnD.CoreApi.dll
