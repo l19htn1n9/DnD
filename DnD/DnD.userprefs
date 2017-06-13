@@ -1,10 +1,11 @@
-﻿<Properties StartupConfiguration="{A67B7931-EFB0-41D4-9C27-2F3688F98E43}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DnD.Models/Mappings/UserMapping.cs">
+﻿<Properties StartupConfiguration="{A67B7931-EFB0-41D4-9C27-2F3688F98E43}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DnD.Models/Entities/Character.cs">
     <Files>
-      <File FileName="DnD.CoreApi/Program.cs" Line="22" Column="1" />
-      <File FileName="DnD.CoreApi/Startup.cs" Line="1" Column="1" />
-      <File FileName="DnD.CoreApi/Controllers/ValuesController.cs" Line="23" Column="28" />
-      <File FileName="DnD.Models/Mappings/UserMapping.cs" Line="17" Column="1" />
+      <File FileName="DnD.CoreApi/Startup.cs" Line="23" Column="41" />
+      <File FileName="DnD.CoreApi/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="DnD.CoreApi/Controllers/CharactersController.cs" Line="33" Column="75" />
+      <File FileName="DnD.CoreApi/Controllers/UsersController.cs" Line="14" Column="9" />
+      <File FileName="DnD.Models/Entities/Character.cs" Line="12" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

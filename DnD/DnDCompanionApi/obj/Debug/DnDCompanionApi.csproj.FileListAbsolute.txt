@@ -153,7 +153,6 @@ D:/Projects/DnDCompanion/DnD/DnD/DnDCompanionApi/obj/Debug/DnDCompanionApi.pdb
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/bin/Microsoft.AI.ServerTelemetryChannel.xml
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/bin/Microsoft.AI.WindowsServer.xml
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/bin/Microsoft.AI.Web.xml
-/Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/obj/Debug/DnDCompanionApi.csprojResolveAssemblyReference.cache
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/obj/Debug/DnDCompanionApi.csproj.CoreCompileInputs.cache
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/obj/Debug/DnDCompanionApi.dll
 /Users/freekvandertoorn/DnD/DnD/DnDCompanionApi/obj/Debug/DnDCompanionApi.pdb

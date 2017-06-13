@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DnD.Models.DatabaseContext;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using MySQL.Data.EntityFrameworkCore.Extensions;
 
 namespace DnD.CoreApi
 {
@@ -29,6 +31,10 @@ namespace DnD.CoreApi
         {
             // Add framework services.
             services.AddMvc();
+
+            string connectionString = "Data Source=localhost;Database=DnD;Uid=DnD;Pwd=Admin123;SslMode=None";
+            services.AddDbContext<DndEntities>(options =>
+                                               options.UseMySQL(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
