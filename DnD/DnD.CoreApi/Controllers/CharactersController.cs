@@ -39,6 +39,8 @@ namespace DnD.CoreApi.Controllers
         public void Post([FromBody]Character character)
         {
             //insert new character
+            _db.Characters.Add(character);
+            _db.SaveChanges();
         }
 
         // PUT api/values/5
@@ -46,12 +48,17 @@ namespace DnD.CoreApi.Controllers
         public void Put(int id, [FromBody]Character character)
         {
             //update character
+            _db.Characters.Update(character);
+            _db.SaveChanges();
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            var character = new Character { Id = id };
+            _db.Entry(character).State = EntityState.Deleted;
+            _db.SaveChanges();
         }
     }
 }
