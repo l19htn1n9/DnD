@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{CE510DAD-7BD6-4CD9-BD1B-AC81656CD395}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DnD.CoreApi/README.txt">
     <Files>
-      <File FileName="DnD.Companion/DnD.CompanionPage.xaml" Line="8" Column="1" />
+      <File FileName="DnD.Companion/DnD.CompanionPage.xaml" Line="7" Column="15" />
+      <File FileName="DnD.CoreApi/README.txt" Line="1" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
