@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{CE510DAD-7BD6-4CD9-BD1B-AC81656CD395}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DnD.Companion/DnD.CompanionPage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="DnD.Companion/DnD.CompanionPage.xaml" Line="8" Column="1" />
     </Files>
