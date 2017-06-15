@@ -1,5 +1,6 @@
 ﻿using System;
 using DnD.Models.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MySQL.Data.EntityFrameworkCore.Extensions;
 
@@ -12,7 +13,12 @@ namespace DnD.Models.DatabaseContext
 
         public DndEntities()
         {
-            
+            Database.EnsureCreated();
+        }
+
+        public DndEntities(DbContextOptions<DndEntities> options) : base(options)
+        {
+            Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

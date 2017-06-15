@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
-    <Folder Include="Authentication\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +24,10 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.3.1" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="7.0.7-m61" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.1.4" />
+    <PackageReference Include="JWT" Version="3.0.0-beta4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
   </ItemGroup>
 
   <ItemGroup>

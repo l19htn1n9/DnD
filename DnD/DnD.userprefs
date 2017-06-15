@@ -1,8 +1,22 @@
-﻿<Properties StartupConfiguration="{CE510DAD-7BD6-4CD9-BD1B-AC81656CD395}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{A67B7931-EFB0-41D4-9C27-2F3688F98E43}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DnD.CoreApi/Startup.cs">
+    <Files>
+      <File FileName="DnD.CoreApi/Controllers/AccountController.cs" Line="31" Column="52" />
+      <File FileName="DnD.CoreApi/Startup.cs" Line="56" Column="91" />
+      <File FileName="DnD.Models/DatabaseContext/DndEntities.cs" Line="9" Column="18" />
+      <File FileName="DnD.Models/DatabaseContext/UserDbContext.cs" Line="16" Column="96" />
+      <File FileName="DnD.CoreApi/AppUserManager.cs" Line="14" Column="53" />
+      <File FileName="DnD.CoreApi/CustomPasswordHasher.cs" Line="7" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DnD.CoreApi PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/Controllers/AccountController.cs" relfile="DnD.CoreApi/Controllers/AccountController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/CustomPasswordHasher.cs" relfile="DnD.CoreApi/CustomPasswordHasher.cs" line="12" column="1" />
+      <Breakpoint file="/Users/freekvandertoorn/DnD/DnD/DnD.CoreApi/CustomPasswordHasher.cs" relfile="DnD.CoreApi/CustomPasswordHasher.cs" line="17" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
