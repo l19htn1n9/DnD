@@ -2,6 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DnD.Companion" x:Class="DnD.Companion.DnD_CompanionPage">
     <StackLayout VerticalOptions="Center">
         <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
-        <Button Text="Go Fuck yourself!" VerticalOptions="End" HorizontalOptions="Center" />
+        <Button Text="Go Fuck yourself!" VerticalOptions="End" HorizontalOptions="Center" Clicked="Handle_Clicked" />
     </StackLayout>
 </ContentPage>

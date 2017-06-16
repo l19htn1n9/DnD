@@ -90,7 +90,7 @@ namespace DnD.CoreApi.Controllers
 			payload.Add("aud", _options.Audience);
 			payload.Add("nbf", ConvertToUnixTimestamp(DateTime.Now));
 			payload.Add("iat", ConvertToUnixTimestamp(DateTime.Now));
-			payload.Add("exp", ConvertToUnixTimestamp(DateTime.Now.AddDays(7)));
+            payload.Add("exp", ConvertToUnixTimestamp(DateTime.Now.AddMinutes(60)));
 			IJwtAlgorithm algorithm = new HMACSHA256Algorithm();
 			IJsonSerializer serializer = new JsonNetSerializer();
 			IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();

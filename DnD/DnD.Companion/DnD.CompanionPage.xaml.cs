@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace DnD.Companion
 {
@@ -7,6 +8,12 @@ namespace DnD.Companion
         public DnD_CompanionPage()
         {
             InitializeComponent();
+
+        }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushModalAsync(new LoginPage());
         }
     }
 }
