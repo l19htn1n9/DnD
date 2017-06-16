@@ -16,11 +16,11 @@ namespace DnD.CoreApi.Controllers
     [Route("api/[controller]")]
 	public class AccountController : Controller
 	{
-        private AppUserManager _userManager;
+        private UserManager<IdentityUser> _userManager;
 		private SignInManager<IdentityUser> _signInManager;
 		private JWTSettings _options;
 
-		public AccountController(AppUserManager userManager, SignInManager<IdentityUser> signInManager, IOptions<JWTSettings> optionsAccessor)
+		public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IOptions<JWTSettings> optionsAccessor)
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;

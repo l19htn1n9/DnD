@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DnD.Models.DatabaseContext;
 using DnD.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DnD.CoreApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class CharactersController : Controller
     {

@@ -19,6 +19,8 @@ namespace DnD.Models.Entities
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
+        [DataType(DataType.Text)]
+        public string SecurityStamp { get; set; }
 
         public virtual ICollection<Character> Characters { get; set; }
     }
