@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DnD.Companion.Helper;
+using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -14,7 +15,9 @@ namespace DnD.Companion
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            throw new NotImplementedException();
+            var username = Username.Text;
+            var password = Password.Text;
+            ApiHandler.Instance.Login(username, password);
         }
     }
 }
