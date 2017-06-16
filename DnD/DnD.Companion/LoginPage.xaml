@@ -8,7 +8,7 @@
                 <Switch></Switch>
                 <Label VerticalTextAlignment="Center">Remember me</Label>
             </StackLayout>
-            <Button x:Name="Login" Text="Login" FontSize="20" />
+            <Button x:Name="Login" Text="Login" FontSize="20" Clicked="Handle_Clicked" />
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>
