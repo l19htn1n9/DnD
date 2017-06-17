@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DnD.Companion.LoginPage">
-	<ContentPage.Content>
-        <StackLayout VerticalOptions="Center" Padding="50" Spacing="15">
-            <Entry x:Name="Username" Placeholder="Username" />
-            <Entry x:Name="Password" IsPassword="true" Placeholder="Password" />
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center">
-                <Switch></Switch>
-                <Label VerticalTextAlignment="Center">Remember me</Label>
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout IsEnabled="False" Padding="50" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <Entry x:Name="Username" Placeholder="Username" IsEnabled="False" />
+                <Entry x:Name="Password" IsPassword="true" Placeholder="Password" IsEnabled="False" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" IsEnabled="False">
+                    <Switch x:Name="Switch" IsEnabled="False"></Switch>
+                    <Label VerticalTextAlignment="Center">Remember me</Label>
+                </StackLayout>
+                <Button x:Name="Login" Text="Login" FontSize="20" Clicked="Handle_Clicked" IsEnabled="False" />
             </StackLayout>
-            <Button x:Name="Login" Text="Login" FontSize="20" Clicked="Handle_Clicked" />
-        </StackLayout>
-	</ContentPage.Content>
+            <ActivityIndicator x:Name="ActivityIndicator" IsRunning="True" IsVisible="True" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Color="Maroon" Opacity="0.5" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
 </ContentPage>
